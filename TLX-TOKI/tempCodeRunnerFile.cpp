@@ -1,6 +1,7 @@
 
-using namespace std;
+    int terbesar = luas[0];
 
-int main(){
-    for (int i = 1; i <= 4; i++) {
-    for (int j = 1; j <= i; j++) {
+    // Untuk setiap kandang sisanya:
+    for (int i = 1; i < 5; i++) {
+        // Jika luasnya lebih besar daripada variabel luas terbesar:
+        if (luas[i] > luas[i-1]) {
